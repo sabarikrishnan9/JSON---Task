@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap"
+        rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script>
+
+        const Obj = {
+            type: "div",
+            class: "container",
+            child: [
+                {
+                    type: "div",
+                    class: "cards",
+                    child: [
+                        {
+                            type: "div",
+                            class: "card1",
+                            child: [
+                                {
+                                    type: "img",
+                                    class: "doctor-i",
+                                    src: "https://demo.dashboardpack.com/hospital-html/img/icon/man.svg",
+                                    alt: "image",
+                                },
+                                {
+                                    type: "div",
+                                    class: "right",
+
+
+                                    child: [
+                                        {
+
+                                            type: "h3",
+                                            class: "count",
+                                            text: "520",
+
+                                        },
+                                        {
+                                            type: "span",
+                                            class: "profession",
+                                            text: "Doctors"
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        },
+                        {
+                            type: "div",
+                            class: "card2",
+                            child: [
+                                {
+                                    type: "img",
+                                    class: "Nurses-i",
+                                    src: "https://demo.dashboardpack.com/hospital-html/img/icon/cap.svg",
+                                    alt: "image",
+                                },
+                                {
+                                    type: "div",
+                                    class: "right",
+
+
+                                    child: [
+                                        {
+
+                                            type: "h3",
+                                            class: "count",
+                                            text: "6969",
+
+                                        },
+                                        {
+                                            type: "span",
+                                            class: "profession",
+                                            text: "Nurses"
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        },
+                        {
+                            type: "div",
+                            class: "card3",
+                            child: [
+                                {
+                                    type: "img",
+                                    class: "Patients-i",
+                                    src: "https://demo.dashboardpack.com/hospital-html/img/icon/wheel.svg",
+                                    alt: "image",
+                                },
+                                {
+                                    type: "div",
+                                    class: "right",
+
+
+                                    child: [
+                                        {
+
+                                            type: "h3",
+                                            class: "count",
+                                            text: "7509",
+
+                                        },
+                                        {
+                                            type: "span",
+                                            class: "profession",
+                                            text: "Patients",
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        },
+                        {
+                            type: "div",
+                            class: "card4",
+                            child: [
+                                {
+                                    type: "img",
+                                    class: "Pharmacusts-i",
+                                    src: "https://demo.dashboardpack.com/hospital-html/img/icon/pharma.svg",
+                                    alt: "image",
+                                },
+                                {
+                                    type: "div",
+                                    class: "right",
+
+
+                                    child: [
+                                        {
+
+                                            type: "h3",
+                                            class: "count",
+                                            text: "2110",
+
+                                        },
+                                        {
+                                            type: "span",
+                                            class: "profession",
+                                            text: "Pharmacusts",
+                                        }
+                                    ]
+                                }
+
+                            ]
+                        }
+
+                    ]
+                },
+                {
+                    type: "div",
+                    class: "Table-div",
+                    child: [
+                        {
+                            type: "div",
+                            class: "header",
+                            child: [
+                                {
+                                    type: "h3",
+                                    class: "Patients",
+                                    text: "Patients",
+
+                                },
+                                {
+                                    type: "div",
+                                    class: "Search-d",
+                                    child: [
+                                        {
+                                            type: "img",
+                                            class: "search-icon",
+                                            src: "https://demo.dashboardpack.com/hospital-html/img/icon/icon_search.svg",
+                                            alt: "search-icon",
+
+                                        },
+                                        {
+                                            type: "input",
+                                            class: "search-bar",
+                                            input_type: "text",
+                                            placeholder: "Search here ...",
+
+                                        }
+
+                                    ]
+                                }
+                            ]
+
+                        },
+                        {
+                            type: "table",
+                            class: "table-1",
+                            child: [
+                                {
+
+                                    type: "thead",
+                                    child: [
+                                        {
+                                            type: "tr",
+                                            class: "trow",
+                                            child: [
+                                                {
+                                                    type: "th",
+                                                    class: "th-1",
+                                                    text: "Patients Name",
+
+                                                },
+                                                {
+
+                                                    type: "th",
+                                                    class: "th-2",
+                                                    text: "Department",
+                                                },
+                                                {
+
+                                                    type: "th",
+                                                    class: "th-3",
+                                                    text: "Appointment Date",
+                                                },
+                                                {
+
+                                                    type: "th",
+                                                    class: "th-4",
+                                                    text: "Serial Number",
+                                                },
+                                                {
+
+                                                    type: "th",
+                                                    class: "th-5",
+                                                    text: "Amount",
+                                                }
+
+                                            ]
+                                        }
+                                    ]
+
+
+                                },
+                                {
+
+                                    type: "tbody",
+                                    child: [
+                                        {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-1.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        },
+                                        {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-2.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        }, {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-3.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        }, {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-4.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+                                                },
+                                                {   type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+
+
+
+
+                                            ]
+                                        }, {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-5.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+
+
+
+
+                                            ]
+                                        }, {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-6.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+                                            ]
+                                        }, {
+
+                                            type: "tr",
+                                            child: [
+                                                {
+
+                                                    type: "td",
+                                                    class: "img-txt",
+                                                    child: [
+                                                        {
+                                                            type: "img",
+                                                            class: "img-1",
+                                                            src: "images/display picture/dp-6.png",
+                                                            alt: "image",
+                                                        },
+                                                        {
+                                                            type: "p",
+                                                            class: "first-row",
+                                                            text: "jhon kural",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+
+                                                    type: "td",
+
+                                                    child:
+                                                        [{
+                                                            type: "p",
+                                                            text: "Monte carlo",
+                                                        }
+                                                        ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "11/03/2020",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "MDC65454",
+                                                        }
+                                                    ]
+
+                                                },
+                                                {
+                                                    type: "td",
+                                                    child: [
+                                                        {
+                                                            type: "p",
+                                                            text: "$29,192 :",
+                                                        }
+                                                    ]
+
+                                                }
+
+
+
+
+                                            ]
+                                        }
+
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+
+                }
+
+            ]
+        }
+
+
+        function create(Obj) {
+            let ele = document.createElement(Obj.type);
+
+            if (Obj.class) {
+                ele.classList.add(Obj.class);
+            }
+            if (Obj.src) {
+                ele.src = Obj.src;
+            }
+            if (Obj.alt) {
+                ele.alt = Obj.alt;
+            }
+            if (Obj.text) {
+                ele.innerText = Obj.text;
+            }
+            if (Obj.child) {
+                Obj.child.forEach(item => {
+                    ele.appendChild(create(item));
+                })
+            }
+            if (Obj.input_type) {
+                ele.input_type = Obj.input_type;
+            }
+            if (Obj.placeholder) {
+                ele.placeholder = Obj.placeholder;
+            }
+
+            return ele;
+        }
+
+        let container = create(Obj);
+        document.body.appendChild(container);
+
+    </script>
+</body>
+
+</html>
